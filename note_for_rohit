@@ -1,0 +1,52 @@
+Modified file list:
+===================
+
+mm/rmap.c:1619:			//DBvsCoW start
+mm/rmap.c:1622:			//DBvsCoW end 
+mm/rmap.c:1680:			//DBvsCoW start
+mm/rmap.c:1683:			//DBvsCoW end 
+mm/rmap.c:1688:			//DBvsCoW start
+mm/rmap.c:1693:			//DBvsCoW end 
+mm/swapfile.c:1688:			//DBvsCoW start
+mm/swapfile.c:1690:			//DBvsCoW end 
+.config:24:CONFIG_LOCALVERSION="DBvsCoW"
+fs/proc/task_mmu.c:986:	//DBvsCoW start
+fs/proc/task_mmu.c:988:	//DBvsCoW end
+fs/proc/task_mmu.c:1067:	//DBvsCoW start
+fs/proc/task_mmu.c:1070:	//DBvsCoW end 
+fs/proc/task_mmu.c:1107:		//DBvsCoW start
+fs/proc/task_mmu.c:1137:		//DBvsCoW end 
+fs/proc/task_mmu.c:1244:		//DBvsCoW start
+fs/proc/task_mmu.c:1246:		//DBvsCoW end 
+fs/proc/task_mmu.c:1291:		//DBvsCoW start
+fs/proc/task_mmu.c:1293:		//DBvsCoW end 
+fs/proc/task_mmu.c:1390://DBvsCoW start
+fs/proc/task_mmu.c:1400://DBvsCoW end 
+fs/proc/task_mmu.c:1419:		//DBvsCoW start
+fs/proc/task_mmu.c:1426:		//DBvsCoW end 
+fs/proc/task_mmu.c:1604://DBvsCoW start
+fs/proc/task_mmu.c:1607://DBvsCoW end 
+fs/proc/task_mmu.c:1706:		//DBvsCoW start
+fs/proc/task_mmu.c:1711:		//DBvsCoW end 
+fs/proc/task_mmu.c:1737://DBvsCoW start
+fs/proc/task_mmu.c:1895://DBvsCoW end 
+fs/proc/task_mmu.c:1924://DBvsCoW start
+fs/proc/task_mmu.c:1931://DBvsCoW end
+include/generated/autoconf.h:5076:#define CONFIG_LOCALVERSION "DBvsCoW"
+include/config/auto.conf:5074:CONFIG_LOCALVERSION="DBvsCoW"
+include/linux/mm_types.h:529:	//DBvsCoW start
+include/linux/mm_types.h:531:	//DBvsCoW end 
+arch/x86/mm/fault.c:36://DBvsCoW start
+arch/x86/mm/fault.c:41://DBvsCoW end
+arch/x86/include/asm/pgtable.h:126:	//DBvsCoW start
+arch/x86/include/asm/pgtable.h:128:	//DBvsCoW end 
+arch/x86/include/asm/pgtable.h:321:	//DBvsCoW start
+arch/x86/include/asm/pgtable.h:332:	//DBvsCoW end 
+arch/x86/include/asm/pgtable_types.h:27://DBvsCoW start
+arch/x86/include/asm/pgtable_types.h:29://DBvsCoW end 
+arch/x86/include/asm/pgtable_types.h:57://DBvsCoW start
+arch/x86/include/asm/pgtable_types.h:59://DBvsCoW end 
+arch/x86/include/asm/pgtable_types.h:83://DBvsCoW start
+arch/x86/include/asm/pgtable_types.h:85://DBvsCoW end 
+Binary file arch/x86/include/asm/.pgtable.h.swp matches
+
